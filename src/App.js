@@ -1,19 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import Table from './Component/Table';
+import Navbar from './Component/Navbar';
 
 
 
 function App() {
   return (
     <div>
-      <nav className="navbar shadow navbar-light bg-light">
-        <a className="navbar-brand" href="#">
-          TaskX
-          </a>
-      </nav>
+      <Navbar />
       <div className="App">
         <Table />
       </div>

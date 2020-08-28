@@ -4,9 +4,11 @@
   margin-left: 20vw;
 }
 
-@media screen and (maxwidth: 1000px) {
+@media screen and (maxwidth: 1100px) {
   .App {
-    width: 100vw !important;
-    margin-left: 0 !important;
+    width: 100%;
+    margin-left: 0;
+    padding: 1.3em;
+    background-color: aqua;
   }
 }
